@@ -1,0 +1,33 @@
+*{padding:0px; margin:0px;}
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+.topleft {
+    width: 500px;
+    float: left;
+    margin: 85px 0px;
+}
+
+.topright {
+    width: 500px;
+    float: left;
+    overflow: hidden;
+}
+
+.topright img{
+        width:460px;
+        float: left;
+        overflow: hidden;
+        padding: 40px 42px;
+}
+
+.topleft h2 {
+    color: #393939;
+    font-family: system-ui;
+    font-size: 50px;
+    width: 445px;
+}
+
+    

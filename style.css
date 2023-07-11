@@ -176,3 +176,14 @@ div#topbackgroundcolor {
     display: flex;
     margin: 52px 0px;
 }
+.ftext.instagramboxtext {
+    margin-top: -48px;
+    margin-bottom: 25px;
+}.instagramboximage img {
+    width: 235px;
+    margin: 0px 6px;
+}
+
+.instagramboxinto {
+    padding-bottom: 30px;
+} 

@@ -6,6 +6,7 @@ div#topbackgroundcolor {
 
 .container {
     width: 1000px;
+    overflow: hidden;
     margin: auto;
 }
 
@@ -86,3 +87,43 @@ div#topbackgroundcolor {
 .fimginthree.fin img {position: absolute;top: 62px;left: 19.5%;width: 193px;}
 .fimgintwo.fin img {position: absolute;top: 70px;left: 11%;width: 265px;}
 .fimginone.fin img {position: absolute;top: 82px;left: 19%;width: 195px;}
+
+.featuredlink a {
+    font-family: system-ui;
+    color: #2f2f2f;
+    font-weight: 600;
+    display: block;
+    margin: 15px 101px;
+}
+
+.featuredlink {display: flex;float: left;}
+.trdiconsingle {
+    display: flex;
+    float: left;
+}
+
+.trdiconall {display: block;background: #f1f1f1;width: 999px;margin: 68px 0px;height: 232px;border-radius: 5px;}
+
+.trdiconsingle img {
+    }
+    
+.trdiconsingle p {
+    position: absolute;
+    top: 1450px;
+    padding: 0px 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #363636;
+}.trdiconsingle img {
+    width: 60px;
+    padding: 21px 136.5px;
+    padding-top: 65px;
+}
+.trdiconsingle.trdiconsingletwo p {
+    margin-left: 10px;
+}
+
+.trdiconsingle.trdiconsingletrhee p {
+    margin-left: 50px;
+}

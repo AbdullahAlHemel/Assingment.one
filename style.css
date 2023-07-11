@@ -66,12 +66,12 @@ div#topbackgroundcolor {
     font-family: system-ui;
     font-weight: 650;
 }.fin {
-    width: 313px;
+    width: 306px;
     display: flex;
     float: left;
     height: 309px;
     border-radius: 50% 50% 0 0;
-    margin: 10px;
+    margin: 13px;
     padding: 42px 0px 0px 0;
     position: relative;
     margin-top: 34px;
@@ -110,8 +110,8 @@ div#topbackgroundcolor {
     
 .trdiconsingle p {
     position: absolute;
-    top: 1450px;
-    padding: 0px 50px;
+    top: 2005px;
+    padding: 0px 62px;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -249,4 +249,73 @@ footer#endbox {
 
 .ftext.endboxtext h2 span {
     color: white;
+}section.advancedbox {
+    width: 100%;
+    margin-top: 55px;
+    background: #ffe4e478;
 }
+
+
+
+.advancedboxsingle {
+    width: 162px;
+    float: left;
+    display: inline-block;
+    padding: 42px 28px;
+    border: 1px solid #cecece;
+    margin: 75px 15px;
+    background: white;
+    border-radius: 5px;
+    transition: 0.6s;
+    box-shadow: 1px 1px 10px #d2d2d2;
+}
+
+.advancedboxsingle i {
+    transition:0.3s;
+    font-size: 83px;
+    text-align: center;
+    width: 159px;
+    color: #ffbed4e8;
+}
+
+.advancedboxsingle h2 {transition:0.5s;
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: #5f5f5f;
+    font-weight: 800;
+}
+
+.advancedboxsingle p {
+    font-size: 13px;
+    font-family: math;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.advancedboxsingle a {
+    text-decoration: none;
+    margin-left: 37px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #ff8989;
+    float: left;
+    display: inline-block;
+}.advancedboxsingle a i {
+    font-size: 15px;
+    float: left;
+    display: inline;
+    margin-top: -15px;
+    margin-left: 5px;}
+
+.advancedboxsingle:hover {color: white;background: #ffa1a1;}
+.advancedboxsingle:hover i {transform:scale(1.2);color: white;}
+.advancedboxsingle:hover h2 { color: white;}
+.advancedboxsingle:hover a {color: #8d8d8de3;
+}
+
+.advancedboxsingletwo {color: white;background: #ffa1a1;}
+.advancedboxsingletwo i {transform:scale(1.2);color: white;}
+.advancedboxsingletwo h2 { color: white;}
+.advancedboxsingletwo a {color: #8d8d8de3;  

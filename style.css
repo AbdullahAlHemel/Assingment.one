@@ -102,7 +102,7 @@ div#topbackgroundcolor {
     float: left;
 }
 
-.trdiconall {display: block;background: #f1f1f1;width: 999px;margin: 68px 0px;height: 232px;border-radius: 5px;}
+.trdiconall {display: block;background: #f1f1f1;width: 999px;margin: 68px 0px;height: 238px;border-radius: 5px;}
 
 .trdiconsingle img {
     }
@@ -126,4 +126,53 @@ div#topbackgroundcolor {
 
 .trdiconsingle.trdiconsingletrhee p {
     margin-left: 50px;
+}.dealleft {
+    display: inline-block;
+    width: 500px;
+    padding-left: 130px;
+    float: left;
+}
+
+.dealleft h2 {
+    font-family: system-ui;
+    font-size: 26px;
+    color: #3e3e3e;
+    margin-top: 120px;
+}
+
+.dealleft p {
+    margin: 20px 0px;
+    font-family: system-ui;
+    font-size: 12px;
+    width: 400px;
+    color: #5c5b5b;
+    text-align: center;
+}
+
+.dealfullbox {
+    width: 100%;
+    background: #fff0f394;
+}
+
+.dealleft h2 span {
+    color: #ff8fa3;
+}
+
+.dealleft button a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dealleft button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: #fc91a4;
+    margin-left: 147px;
+}.dealright img {
+    width: 220px;
+    float: left;
+    display: flex;
+    margin: 52px 0px;
 }

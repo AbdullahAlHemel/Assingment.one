@@ -187,7 +187,7 @@ div#topbackgroundcolor {
 
 .instagramboxinto {
 } 
-.bigbox{background:url(bigbox.png);WIDTH: 100%;background-repeat: no-repeat;height: 311px;background-size: cover;}
+.bigbox{background:url(bigbox.png);WIDTH: 100%;background-repeat: no-repeat;height: 311px;background-size: cover;margin-bottom: 90px;}
 .bigboxtext.ftext h2 {
     padding-top: 90px;
     margin-top: 89px;
@@ -218,4 +218,35 @@ div#topbackgroundcolor {
     font-size: 15px;
     color: white;
     font-weight: 600;
-}  
+}  .copyright {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #70a0b5f2;
+    font-size: 13px;
+    font-family: system-ui;
+    margin-top: 8px;
+    margin-bottom: 85px;
+}
+
+p {}
+
+.ftext.endboxtext p {
+    font-weight: 500;
+    padding: 19px 0px;
+    color: #d6d6d6;
+    padding-top: 6px;
+    width: 420px;
+}
+
+footer#endbox {
+    background: black;
+}.ftext.endboxtext h2 {
+    color: #ff8585db;
+    font-size: 38px;
+    margin-top: 83px;
+}
+
+.ftext.endboxtext h2 span {
+    color: white;
+}
